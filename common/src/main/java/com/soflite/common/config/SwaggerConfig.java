@@ -30,7 +30,7 @@ package com.soflite.common.config;
                  .enable(swaggerEnabled)
                  .select()
                  // 过滤条件，扫描指定路径下的文件
-                 .apis(RequestHandlerSelectors.basePackage("com.soflite.api.system"))
+                 .apis(RequestHandlerSelectors.basePackage("com.soflite.api"))
                  // 指定路径处理，PathSelectors.any()代表不过滤任何路径
                  //.paths(PathSelectors.any())
                  .build();
