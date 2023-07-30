@@ -57,7 +57,7 @@ IM系统、网盘、流程引擎
 
 后端分模块  按照common  entity   service  api 开发
 
-common 和 entity 所有的模块全部应用
+api 和 entity 所有的模块全部应用
 
 service 是 mappr、dao 和 service包含  其他服务引用的时候通过 service调用
 
