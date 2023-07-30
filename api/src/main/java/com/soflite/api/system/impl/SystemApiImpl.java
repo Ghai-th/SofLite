@@ -1,6 +1,6 @@
 package com.soflite.api.system.impl;
 
-import com.soflite.api.system.ActiveApi;
+import com.soflite.api.system.SystemApi;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @CrossOrigin
 @RestController
-public class ActiveApiImpl implements ActiveApi {
+public class SystemApiImpl implements SystemApi {
     
     @Override
     public String rootPath() {
